@@ -50,8 +50,19 @@ h1, h2, h3 {
 
 .navbar-brand {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 1px solid white;
+    &:hover, &:focus {
+        background-color: #ff9068;    
+    }
 }
 
 // Home Page Styles
