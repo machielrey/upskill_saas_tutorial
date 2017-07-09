@@ -36,6 +36,9 @@ gem 'bootstrap-sass', '3.3.7'
 # Use FontAwesome Sass gem for adding icons
 gem 'font-awesome-sass', '4.6.2'
 
+# Use hirb for better DB display in console
+gem 'hirb', '0.7.3'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
